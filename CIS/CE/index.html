@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Computer College Archieve</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://127.0.0.1:5500/CSS/p.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/images/cis.ico">
+    
+  <style>
+    
+  </style>
+    
+  </head>
+
+  <body>
+    <div>
+      <!--Start of Header content-->
+      <!-- Bar (Sidebar - hidden on small screens) -->
+      <div class="sidebar1 bar-block brdr-r animate-right" id="mySidebar">
+        <button  onclick="close1()" class="btn3 bar-item size-l cr-h tstr" >إغلاق &times;</button>
+        <a href="https://cisarchive.site" class="bar-item btn3  cb-h"><i class="fa fa-home"></i></a> 
+        <button class="btn3 block tstc cb-h" onclick=" AccF('Acc1')"> التخصصات <i class="fa fa-caret-down"></i></button>
+        <div id="Acc1"  class="hide  cb animate-opacity">
+          <a href="https://cisarchive.site/CIS/CE/" class="bar-item tstr btn3-1">هندسة الحاسب</a>
+          <a href="https://cisarchive.site/CIS/CS/" class="bar-item tstr btn3-2">علوم الحاسب</a>
+          <a href="https://cisarchive.site/CIS/IS/" class="bar-item tstr btn3-3">نظم المعلومات</a>
+        </div>
+        <a href="https://cisarchive.site/Library/" class="bar-item btn3 cb-h">المكتبة</a>
+        <a href="https://cisarchive.site/CalcGPA/" class="bar-item btn3 cb-h">حساب المعدل التراكمي</a>
+      </div>
+      
+      <!-- Start Page Content (only on med and large scr)-->
+      <div class="top cb">
+      <div class="overlay" onclick="close1()"style="cursor:pointer" id="myOverlay"></div>
+        <button class="btn3 size-xl hide-small f-right" onclick="open1()">☰</button>
+         <div class="container">
+        <h1 class="hide-small tstc">أرشيف كلية الحاسب ونظم المعلومات</h1></div>
+      </div>
+      
+      
+      <!-- Bar on small screens (Hidden on med and lar scr) -->
+      <div class="sidebar1 bar-block brdr-r animate-right size-l" style="width:100%;" id="mySidebar2">
+        <button onclick="close2()" class="btn3 bar-item size-l cr-h tstr" >إغلاق &times;</button>
+         <a href="https://cisarchive.site" class="bar-item btn3  cb-h"><i class="fa fa-home"></i></a> 
+        <button class="btn3 block tstc cb-h" onclick=" AccF('Acc2')"> التخصصات <i class="fa fa-caret-down"></i></button>
+        <div id="Acc2"  class="hide cb animate-opacity">
+          <a href="https://cisarchive.site/CIS/CE/" class="bar-item tstr btn3-1">هندسة الحاسب</a>
+          <a href="https://cisarchive.site/CIS/CS/" class="bar-item tstr btn3-2">علوم الحاسب</a>
+          <a href="https://cisarchive.site/CIS/IS/" class="bar-item tstr btn3-3">نظم المعلومات</a>
+        </div>
+        <a href="https://cisarchive.site/Library/" class="bar-item btn3 cb-h">المكتبة</a>
+        <a href="https://cisarchive.site/CalcGPA/" class="bar-item btn3 cb-h">حساب المعدل التراكمي</a>
+      </div>
+      
+      
+      <div class="top cb">
+        <div class="overlay" onclick="close2()"style="cursor:pointer" id="myOverlay2"></div>
+        <button class="btn3  size-xl hide-large hide-medium f-right " onclick="open2()">☰</button>
+      </div>
+      <!--End of Header content-->  
+      
+    </div>
+    
+      
+      
+      
+      <!-- Page Content -->
+      <div class="padding-L" id="main">
+      
+      
+
+  <div class="tstm padding-64" id="head">
+    <div class="tstm4 ">
+    <div class="card tstm3 ">
+      <div class="tstm2 ">
+  <h2 class="tstc">هندسة الحاسب</h2>
+
+<p> تعريف للتخصص تعريف للتخصص تعريف للتخصص تعريف للتخصص تعريف للتخصص </p>
+<div class="row tstc">
+  <div class="card2 column" >
+    <h4>الخطة الدراسية</h4>
+    
+    <button onclick="document.location='#plan'" class="btn4-1">انتقال</button>
+    
+  </div>
+  <div class="card2 column" >
+    <h4>تشجير للخطة الدراسية</h4>
+    
+    <button onclick="document.location='#tree'" class="btn4-1">انتقال</button>
+  </div>
+  <div class="card2 column">
+    <h4>المواد 
+      ومحتوياتها</h4>
+      <button onclick="document.location='#subj'" class="btn4-1">انتقال</button>
+   
+   </div>
+  </div>
+</div>
+
+</div>
+
+
+     </div>
+    </div>
+  </div>
+
+
+<div  id="plan">  </div>
+  <!-- الخطة الدراسية -->
+<div class="tstm4" >
+
+ <div class="card tstm3 tstm2" >
+     <h2   class=" tstc">الخطة الدراسية</h2>
+<img id="myimage" src="CE_Plan.png" width="100%" height="100%" alt="Plan">
+</div>
+</div>
+
+
+<div  id="tree">  </div>
+<!-- تشجير للخطة الدراسية -->
+<div class="tstm4" >
+  <div class="card tstm3 tstm2" >
+    <h2   class=" tstc">تشجير للخطة الدراسية</h2>
+    <img id="myimage2" src="" width="100%" height="100%" alt="tree">
+  </div>
+</div>
+
+<div  id="subj">  </div>
+<!-- المواد ومحتوياتها -->
+<div class="tstm4" style="margin-bottom:12px;">
+
+ <div class="card tstm3 tstm2" >
+     <h2   class=" tstc">المواد ومحتوياتها</h2>
+
+<button class="accordion-1">المستوى 1 و 2 (السنة التحضيرية)</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p><a href="" class="marginl-10 btn2-1">تفاضل وتكامل 1</a>
+      <a href="" class="marginl-10 btn2-1">كيمياء عامة 1</a>
+      <a href="" class="marginl-10 btn2-1">مهارات برمجة الحاسب الآلي</a>
+      <a href="" class="marginl-10 btn2-1">اللغة الانجليزية 1</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">تفاضل وتكامل 2</a>
+      <a href="" class="marginl-10 btn2-1">فيزياء عامة 1</a>
+      <a href="" class="marginl-10 btn2-1">مهارات التعلم</a>
+      <a href="" class="marginl-10 btn2-1">اللغة الانجليزية التقنية</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">تفاضل وتكامل 1</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">كيمياء عامة 1</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">مهارات برمجة الحاسب الآلي</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">اللغة الانجليزية 1</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">تفاضل وتكامل 2</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">فيزياء عامة 1</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">مهارات التعلم</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">اللغة الانجليزية التقنية</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 3</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 4</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 5</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 6</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 7</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 8</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 9</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المستوى 10</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+<button class="accordion-1">المواد الاختيارية</button>
+
+<div class="panel">
+
+  <div class="margin-30 hide-small hide-medium">
+    <p>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+
+    <p class="margint-30">
+      <a href="" class="marginl-10 btn2-1">sub</a>
+      <a href="" class="marginl-10 btn2-1">sub</a>
+    </p>
+    
+  </div>
+
+  <div class="margin-30 hide-large ">
+    <p><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+    <p class="margin-30"><a href="" class="btn2-1">sub</a></p>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+
+
+ <!-- JS Codes -->
+ <script>
+  var acc = document.getElementsByClassName("accordion-1");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", 
+  function() {
+    this.classList.toggle("active-1");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+  );
+}
+
+</script>
+<script src="http://127.0.0.1:5500//JS/pack.js" ></script>
+
+
+
+
+</body>
+</html>
