@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Computer College Archieve</title>
+    <title>أرشيف كلية الحاسب</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://127.0.0.1:5500/css/p.css">
+
+    <link rel="stylesheet" href="https://cisarchive.site/CSS/p.css">
+    <link rel="stylesheet" href="http://192.168.8.8:5500/CSS/p.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,42 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    
+   
+    <link rel="icon" type="image/x-icon" href="https://cisarchive.site/Images/cis.ico">
+
     <style>
-      
-      .tab-1,.tab-2,.tab-3 { float: right; border:1px solid #ccc; width:15%; height: 150px;}
-      .tab-1 button,.tab-2 button,.tab-3 button { display: block; background-color: inherit;color: black; padding: 20px 5px; width: 100%; border: none; outline: none;text-align: center;cursor: pointer; transition: 0.3s;height: 100%; }
-      .tab-1 button:hover {background-color: #6B5B95;color:white;}.tab-1 button.active {background-color: #6B5B95;  color:white;}
-      .tab-2 button:hover {background-color: #B565A7;color:white;}.tab-2 button.active {background-color: #B565A7;  color:white;}
-      .tab-3 button:hover {background-color: #45B8AC;color:white;}.tab-3 button.active {background-color: #45B8AC;  color:white;}
-      .tabcontent { float: left;padding: 20px 12px; border: 1px solid #ccc;  width: 85%; border-right: none; height: 150px;  }
-      .panel { padding: 2px 24px; max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
-      .card3 {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); background:#ffff; height:220px; text-align: center;padding:35px;  }
-      
-      
-
-      /* Tab for small screen */
-      .tab2-1,.tab2-2,.tab2-3 { overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1;}
-      .tab2-1 button,.tab2-2 button,.tab2-3 button {background-color: inherit;float:left; border: none;outline: none;cursor: pointer;  padding:14px 16px;transition: 0.3s;font-size: 17px;width: 100%;}
-      .tab2-1 button:hover {background-color: #6B5B95; color:white; } .tab2-1 button.active {background-color: #6B5B95; color:white; }
-      .tab2-2 button:hover {background-color: #B565A7; color:white; } .tab2-2 button.active {background-color: #B565A7; color:white; }
-      .tab2-3 button:hover {background-color: #45B8AC; color:white; } .tab2-3 button.active {background-color: #45B8AC; color:white; }    
-      /* Style the tab content */
-      .tabcontent2 {   display: none;   padding: 6px 12px;   border: 1px solid #ccc;  border-top: none;height:100%;  }
-      
-      
-      .card4 { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); background:#ffff; height:100%;  text-align: center;   padding: 40px;  }
-
-
-      .dropbtn {  background-color: #3498DB;  color: white;  padding: 16px;  font-size: 16px;  border: none; cursor: pointer;  }
-      .dropbtn:hover, .dropbtn:focus {   background-color: #2980B9;  }
-      .dropdown { position: relative;   display: inline-block;   }
-
-      .dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 160px; overflow: auto; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
-      .dropdown-content a { color: black; padding: 12px 16px; text-decoration: none; display: block;}
-      .dropdown a:hover {background-color: #ddd;}
-
-      .show {display: block;}
       </style>
   </head>
 
@@ -105,15 +75,15 @@
 <div style="margin-top:200px;"class="tstm4" >
     <div class="card tstm3" >
 
-        <h2 class="tstr   tstm2">SUB NAME</h2>
-        <p>Sub Definition</p>
+        <h2 class="tstr   tstm2">الرياضيات الهندسية 1</h2>
+        <p>مادة تابعة لقسم العمارة الإسلامية  بكلية الهندسة، مقررة لجميع التخصصات الهندسية، في هذا المقرر سيتم تغطية الأعداد المركبة والمعادلات التفاضلية من الدرجة الأولى والثانية وتحويل لابلاس.</p>
 
     </div>
 </div>
     
 <!-- -------------------For PC Screen------------------ -->  
 <div class="hide-small hide-medium card3" style="margin-bottom:20px;margin-top:20px;">
-    <div class="tab-1">
+    <div class="ttab-4">
 
       <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'tab1')">النظري</button>
     
@@ -123,14 +93,14 @@
          
                 <p class="" style="margin:10px; "> 
 
-                  <a href="https://mega.nz/folder/56YBwJzQ#klpunSarw7LdIRbQXbR8dA/file/FnoB2ASI" class="btn2-1" target="_blank">الكتاب</a>
-                  <a href="https://mega.nz/folder/ByAXTILI#Bzf_DiOgLKb2EAlA4ismLg" class="btn2-1" target="_blank">السلايدات</a>
-                  <!-- <a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-1" target="_blank">تجميعات</a>
-                  <a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-1" target="_blank">مشاريع</a>
-                  <a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-1" target="_blank">واجبات</a>
+                  <a href="https://mega.nz/folder/56YBwJzQ#klpunSarw7LdIRbQXbR8dA/file/FnoB2ASI" class="btn2-4" target="_blank">الكتاب</a>
+                  <a href="https://mega.nz/folder/ByAXTILI#Bzf_DiOgLKb2EAlA4ismLg" class="btn2-4" target="_blank">السلايدات</a>
+                  <!-- <a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-4" target="_blank">تجميعات</a>
+                  <a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-4" target="_blank">مشاريع</a>
+                  <a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-4" target="_blank">واجبات</a>
 
                   <div class="margin-10 dropdown">
-                    <button onclick=" dropdownFunction('myDropdown1')" class="btn2-1">مقاطع وشروحات</button>
+                    <button onclick=" dropdownFunction('myDropdown1')" class="btn2-4">مقاطع وشروحات</button>
                     <div id="myDropdown1" class="dropdown-content">
                       <a href="#1" target="_blank">1</a>
                       <a href="#2" target="_blank">2</a>
@@ -148,7 +118,7 @@
 
 <!-- -------------------For Moblie ------------------ -->  
 <div class="card4 hide-large " style="margin-bottom:20px;margin-top:20px;">
-  <div class="tab2-1">
+  <div class="ttab2-4">
 
     <button id="defaultOpen" class="tablinks" onclick="openTab2(event, 'tab1-2')">النظري</button>
 
@@ -157,14 +127,14 @@
   
   <div id="tab1-2" class="tabcontent2">
        
-    <p class="margin-40"><a href="https://mega.nz/folder/56YBwJzQ#klpunSarw7LdIRbQXbR8dA/file/FnoB2ASI" class="btn2-1" target="_blank">الكتاب</a></p>
-    <p class="margin-40"><a href="https://mega.nz/folder/ByAXTILI#Bzf_DiOgLKb2EAlA4ismLg" class="btn2-1" target="_blank">السلايدات</a></p>
-    <!-- <p class="margin-40"><a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-1" target="_blank">تجميعات</a></p>
-    <p class="margin-40"><a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-1" target="_blank">مشاريع</a></p>
-    <p class="margin-40"><a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-1" target="_blank">واجبات</a></p>
+    <p class="margin-40"><a href="https://mega.nz/folder/56YBwJzQ#klpunSarw7LdIRbQXbR8dA/file/FnoB2ASI" class="btn2-4" target="_blank">الكتاب</a></p>
+    <p class="margin-40"><a href="https://mega.nz/folder/ByAXTILI#Bzf_DiOgLKb2EAlA4ismLg" class="btn2-4" target="_blank">السلايدات</a></p>
+    <!-- <p class="margin-40"><a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-4" target="_blank">تجميعات</a></p>
+    <p class="margin-40"><a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-4" target="_blank">مشاريع</a></p>
+    <p class="margin-40"><a href="https://mega.nz/file/B2AhxDZY#iVVGmDSU2SqtvT_ug9Ts7u4N-mCayRcqDZzeOpBOxlw" class="btn2-4" target="_blank">واجبات</a></p>
 
     <div class="marginb-30 dropdown">
-      <button onclick=" dropdownFunction('myDropdown3')" class="btn2-1">مقاطع وشروحات</button>
+      <button onclick=" dropdownFunction('myDropdown3')" class="btn2-4">مقاطع وشروحات</button>
       <div id="myDropdown3" class="dropdown-content">
         <a href="#1" target="_blank">1</a>
         <a href="#2" target="_blank">2</a>
@@ -225,7 +195,7 @@ function dropdownFunction(id) {
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.btn2-1')) {
+  if (!event.target.matches('.btn2-4')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
